@@ -6,8 +6,8 @@ LexoRank is a Go module that implements the LexoRank algorithm, a system for gen
 
 - Generate a rank between two existing ranks
 - Parse and stringify LexoRank objects
-- Supports multiple buckets for rank generation
 - Provides Min, Max, and Middle rank functions
+- Supports multiple buckets for rank rebalancing (future)
 
 ## Installation
 

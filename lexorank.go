@@ -12,7 +12,7 @@ type LexoRank struct {
 }
 
 const (
-	DEFAULT_BUCKET = 1
+	DEFAULT_BUCKET = 0
 )
 
 var (

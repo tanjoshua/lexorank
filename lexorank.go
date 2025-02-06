@@ -37,7 +37,7 @@ func Max() LexoRank {
 func Middle() LexoRank {
 	return LexoRank{
 		Bucket: DEFAULT_BUCKET,
-		Value:  "h",
+		Value:  "n",
 	}
 }
 

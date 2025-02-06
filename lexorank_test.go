@@ -57,6 +57,7 @@ func TestBetween(t *testing.T) {
 			if between.String() > tt.right.String() {
 				t.Errorf("Between() should be less than max")
 			}
+			t.Logf("Between(%s, %s) = %s", tt.left, tt.right, between)
 		})
 	}
 }
